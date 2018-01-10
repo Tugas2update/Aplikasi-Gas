@@ -31,6 +31,8 @@ public class LoginSupplier extends javax.swing.JFrame {
 
         jPanel1 = new javax.swing.JPanel();
         PanelKiri = new javax.swing.JPanel();
+        jLabel5 = new javax.swing.JLabel();
+        jTextArea1 = new javax.swing.JTextArea();
         jLabel7 = new javax.swing.JLabel();
         jPanel4 = new javax.swing.JPanel();
         jLabel8 = new javax.swing.JLabel();
@@ -39,9 +41,11 @@ public class LoginSupplier extends javax.swing.JFrame {
         jSeparator4 = new javax.swing.JSeparator();
         jLabel10 = new javax.swing.JLabel();
         jSeparator5 = new javax.swing.JSeparator();
+        jSeparator1 = new javax.swing.JSeparator();
         jLabel11 = new javax.swing.JLabel();
         txtEmailSupplier = new javax.swing.JTextField();
         txtPassSupplier = new javax.swing.JPasswordField();
+        jSeparator2 = new javax.swing.JSeparator();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -49,25 +53,22 @@ public class LoginSupplier extends javax.swing.JFrame {
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         PanelKiri.setBackground(new java.awt.Color(233, 30, 99));
+        PanelKiri.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel5.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel5.setText("Ceriakan Kehangatan Keluarga");
+        PanelKiri.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 50, -1, 40));
+
+        jTextArea1.setEditable(false);
+        jTextArea1.setBackground(new java.awt.Color(233, 30, 99));
+        jTextArea1.setColumns(20);
+        jTextArea1.setRows(5);
+        jTextArea1.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(155, 89, 182), 3, true));
+        PanelKiri.add(jTextArea1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 40, 230, 60));
 
         jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/util/kelompok10/gasApps/assets/Image tabung.png"))); // NOI18N
-
-        javax.swing.GroupLayout PanelKiriLayout = new javax.swing.GroupLayout(PanelKiri);
-        PanelKiri.setLayout(PanelKiriLayout);
-        PanelKiriLayout.setHorizontalGroup(
-            PanelKiriLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(PanelKiriLayout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 250, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-        PanelKiriLayout.setVerticalGroup(
-            PanelKiriLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(PanelKiriLayout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 400, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(49, Short.MAX_VALUE))
-        );
+        PanelKiri.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 40, 250, 400));
 
         jPanel1.add(PanelKiri, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 270, 460));
 
@@ -93,6 +94,7 @@ public class LoginSupplier extends javax.swing.JFrame {
         jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/util/kelompok10/gasApps/assets/Key_1-WF_1.png"))); // NOI18N
         jPanel4.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 240, -1, -1));
         jPanel4.add(jSeparator5, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 280, 172, 10));
+        jPanel4.add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 330, -1, -1));
 
         jLabel11.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel11.setForeground(new java.awt.Color(255, 255, 255));
@@ -116,8 +118,9 @@ public class LoginSupplier extends javax.swing.JFrame {
             }
         });
         jPanel4.add(txtPassSupplier, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 260, 172, -1));
+        jPanel4.add(jSeparator2, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 320, 70, -1));
 
-        jPanel1.add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 0, 300, 460));
+        jPanel1.add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 0, 280, 460));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -183,13 +186,17 @@ public class LoginSupplier extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel4;
+    private javax.swing.JSeparator jSeparator1;
+    private javax.swing.JSeparator jSeparator2;
     private javax.swing.JSeparator jSeparator4;
     private javax.swing.JSeparator jSeparator5;
+    private javax.swing.JTextArea jTextArea1;
     private javax.swing.JTextField txtEmailSupplier;
     private javax.swing.JPasswordField txtPassSupplier;
     // End of variables declaration//GEN-END:variables

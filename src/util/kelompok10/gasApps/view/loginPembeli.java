@@ -54,6 +54,8 @@ public class loginPembeli extends javax.swing.JFrame {
         jLabel12 = new javax.swing.JLabel();
         jLabel13 = new javax.swing.JLabel();
         jPanel4 = new javax.swing.JPanel();
+        jLabel14 = new javax.swing.JLabel();
+        jTextArea1 = new javax.swing.JTextArea();
         jLabel7 = new javax.swing.JLabel();
 
         jPanel3.setBackground(new java.awt.Color(233, 30, 99));
@@ -243,10 +245,22 @@ public class loginPembeli extends javax.swing.JFrame {
         jPanel4.setBackground(new java.awt.Color(233, 30, 99));
         jPanel4.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/util/kelompok10/gasApps/assets/Image tabung.png"))); // NOI18N
-        jPanel4.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 20, 250, 400));
+        jLabel14.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
+        jLabel14.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel14.setText("Ceriakan Kehangatan Keluarga");
+        jPanel4.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 40, -1, 40));
 
-        jPanel1.add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 0, 300, 460));
+        jTextArea1.setEditable(false);
+        jTextArea1.setBackground(new java.awt.Color(233, 30, 99));
+        jTextArea1.setColumns(20);
+        jTextArea1.setRows(5);
+        jTextArea1.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(155, 89, 182), 3, true));
+        jPanel4.add(jTextArea1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 30, 230, 60));
+
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/util/kelompok10/gasApps/assets/Image tabung.png"))); // NOI18N
+        jPanel4.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 70, 250, 400));
+
+        jPanel1.add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 0, 280, 460));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -336,6 +350,7 @@ public class loginPembeli extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel13;
+    private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
@@ -352,6 +367,7 @@ public class loginPembeli extends javax.swing.JFrame {
     private javax.swing.JSeparator jSeparator3;
     private javax.swing.JSeparator jSeparator4;
     private javax.swing.JSeparator jSeparator5;
+    private javax.swing.JTextArea jTextArea1;
     private javax.swing.JTextField txtEmailPembeli;
     private javax.swing.JPasswordField txtPassPembeli;
     private javax.swing.JPasswordField txtPassword;
